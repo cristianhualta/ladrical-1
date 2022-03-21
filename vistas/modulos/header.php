@@ -142,6 +142,7 @@ if (strlen(session_id()) < 1)
             {
               echo '<li class="treeview" id="navAlmacen">
               <a href="#">
+<<<<<<< HEAD
                 <i class="fa fa-laptop"></i>
                 <span>Almacén</span>
                 <i class="fa fa-angle-left pull-right"></i>
@@ -163,6 +164,14 @@ if (strlen(session_id()) < 1)
               </a>
               <ul class="treeview-menu">
                 
+=======
+                <i class="fa fa-user"></i>
+                <span>Personal</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu" id="navAlmacen">
+                <li id="navPersonal"><a href="#" id="navPersonal"><i class="fa fa-plus-circle"></i>MENU_1</a></li>
+>>>>>>> c9a9589b33cb4e18550bf33c24936510c785e0d8
                 
               </ul>
             </li>';
