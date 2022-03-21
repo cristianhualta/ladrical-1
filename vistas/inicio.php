@@ -1,4 +1,5 @@
 <?php
+//prueba
 require 'modulos/header.php';
 
 require_once "../modelos/Negocio.php";
